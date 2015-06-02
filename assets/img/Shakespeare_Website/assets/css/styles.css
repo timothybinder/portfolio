@@ -1,0 +1,61 @@
+/* Maybe I'll put a color scheme here some time*/
+html
+	{padding: 2em;
+	padding-top: 6em;
+	padding-bottom: 6em;
+	border: 8px solid green;
+	margin: 10%;
+	margin-top: 15%;
+	cursor: wait;}
+body
+	{background-image:url("Shakespeare_Background.jpg");
+	font-family: cneue;}
+h1 
+	{text-align: center;
+	padding-top: 2em;}
+#container
+	{background-color: #f4ecd5;}
+#visit
+	{padding-bottom: 30em;
+	clear: left;}
+#nav ul li, #indexNav ul li
+	{padding: 2px;
+	border: 1px solid black;
+	padding-right: 10px;
+	font-size: 20px;
+	width: 30%;} /*box needs be shorter*/
+#nav ul, #indexNav ul
+	{list-style-image: url("Shakespeare_List.jpg");}
+#indexS
+	{float: right;
+	padding-right: 20px;}
+#nav a:hover, #nav a:focus, #indexNav a:hover, #indexNav a:focus,
+	{color: #00ff0c;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 10px 0px 50px black;
+    -webkit-transition: width 0.3s; /*Safari & Chrome*/
+    transition: width 0.3s;
+    -moz-transition: width 0.3s; /* Firefox 4 */
+    -o-transition: width 0.3s; /* Opera */
+   /* Eat a thick one IE */}
+.blurb
+	{text-align: center;
+	color: yellow;
+	background-color: black;
+	padding: 5px;
+	border: 2px dashed red;
+	margin: 10px;
+	font-size: 20px;}
+#sInfo, #infoSources, #tragedies, #comedies, #histories, #allPlays, #sonnets, #iambic, #vocab
+	{padding-left: 1em;
+	font-size: 18px;
+	padding-bottom: 1em;}
+#sInfo ul, #tragedies ul, #comedies ul, #histories ul, #allPlays ul, #vocab ul
+	{list-style-image: url("Shakespeare_List.jpg");}
+#sonnets ol li
+	{list-style-type: none;}
+@font-face {
+    font-family: cneue;
+    src: local(cneue_font), url('cneue_font.ttf') format('opentype');
